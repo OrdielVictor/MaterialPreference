@@ -28,7 +28,7 @@ allprojects {
 <strong>Paso 2.</strong> Agrega la dependencia
 ```gradle
 dependencies {
-    implementation 'com.github.OrdielVictor:MaterialPreference:1.0.0'
+    implementation 'com.github.OrdielVictor:MaterialPreference:1.0.0-alpha01'
 }
 ```
 <br>
