@@ -1,5 +1,5 @@
 <p align="center">
-    <img scr="./images/icon.png" width="80" height="80">
+    <img src="./images/icon.png" width="80" height="80">
 </p>
 
 <h1 align="center">MaterialPreference</h1>
