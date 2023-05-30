@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="preferences">Preferencias</string>
+	
+	<!-- EditTextPreferenceMaterial -->
+	<string name="edit_text_preference_material_summary">Permite introducir un texto</string>
+	<string name="edit_text_preference_material_dialogTitle">Introducir texto</string>
+	<string name="edit_text_preference_material_hint">Texto</string>
+	
+	<!-- ListPreferenceMaterial -->
+	<string name="list_preference_material_summary">Permite selccionar un valor de una lista</string>
+	<string name="list_preference_material_dialogTitle">Seleccionar valor</string>
+	
+	<!-- MaterialSwitchPreference -->
+	<string name="material_switch_preference_summary">El estado se puede alternar</string>
+	
+	<!-- MultiSelectListPreferenceMaterial -->
+	<string name="multi_select_list_preference_material_summary">Permite seleccionar multiples valores de una lista</string>
+	<string name="multi_select_list_preference_material_dialogTitle">Seleccionar valores</string>
+</resources>

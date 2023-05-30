@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:paddingBottom="16dp"
+	android:paddingEnd="8dp"
+	android:paddingStart="8dp"
+	android:paddingTop="16dp">
+	
+	<androidx.appcompat.widget.DialogTitle
+		android:id="@android:id/title"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="16dp"
+		style="?textAppearanceTitleLarge"/>
+	
+	<com.google.android.material.textfield.TextInputLayout
+		android:id="@+id/text_input_layout"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="16dp"
+		android:layout_marginTop="16dp"
+		android:paddingEnd="16dp"
+		android:paddingStart="16dp"
+		style="?textInputFilledStyle">
+		
+		<com.google.android.material.textfield.TextInputEditText
+			android:id="@+id/text_input"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:inputType="text"/>
+	</com.google.android.material.textfield.TextInputLayout>
+	
+	<LinearLayout
+		android:orientation="horizontal"
+		android:gravity="end"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		style="?buttonBarStyle">
+		
+		<Button
+			android:id="@android:id/button2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@android:string/cancel"
+			style="@style/Widget.Material3.Button.TextButton"/>
+		
+		<Button
+			android:id="@android:id/button1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@android:string/ok"
+			style="@style/Widget.Material3.Button.TextButton"/>
+	</LinearLayout>
+</LinearLayout>

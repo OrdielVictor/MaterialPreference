@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Preference Example</string>
+
+	<string name="preferences">Preferences</string>
+	
+	<string name="version">1.0.0-alpha01</string>
+	
+	<!-- EditTextPreferenceMaterial -->
+	<string name="edit_text_preference_material_key">edit_text_preference_material</string>
+	<string name="edit_text_preference_material_title">EditTextPreferenceMaterial</string>
+	<string name="edit_text_preference_material_summary">Allows to enter a text</string>
+	<string name="edit_text_preference_material_dialogTitle">Enter text</string>
+	<string name="edit_text_preference_material_hint">Text</string>
+	
+	<!-- EditTextPreferenceMaterialDialog -->
+	<string name="edit_text_preference_material_dialog_key">edit_text_preference_material_dialog</string>
+	<string name="edit_text_preference_material_dialog_title">EditTextPreferenceMaterialDialog</string>
+	
+	<!-- ListPreferenceMaterial -->
+	<string name="list_preference_material_key">list_preference_material</string>
+	<string name="list_preference_material_title">ListPreferenceMaterial</string>
+	<string name="list_preference_material_summary">Allows to select a value from a list</string>
+	<string name="list_preference_material_dialogTitle">Select value</string>
+	<string name="list_preference_material_defaultValue">item1</string>
+	
+	
+	<!-- MaterialSwitchPreference -->
+	<string name="material_switch_preference_key">material_switch_prefrence</string>
+	<string name="material_switch_preference_title">MaterialSwitchPreference</string>
+	<string name="material_switch_preference_summary">The state can be toggled</string>
+	
+	<!-- MultiSelectListPreferenceMaterial -->
+	<string name="multi_select_list_preference_material_key">multi_select_list_preference_material</string>
+	<string name="multi_select_list_preference_material_title">MultiSelectListPreferenceMaterial</string>
+	<string name="multi_select_list_preference_material_summary">Allows to select multiple values from a list</string>
+	<string name="multi_select_list_preference_material_dialogTitle">Select values</string>
+</resources>

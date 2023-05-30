@@ -1,0 +1,29 @@
+plugins {
+	id 'com.android.library'
+}
+
+android {
+	compileSdk 33
+	buildToolsVersion "33.0.0"
+	namespace 'cu.ordlvctr.materialpreference'
+	
+	defaultConfig {
+		minSdk 21
+		targetSdk 33
+		versionCode 11
+		versionName "1.0.0-alpha01"
+	}
+	
+	buildTypes {
+		release {
+			minifyEnabled false
+			proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+		}
+	}
+}
+
+dependencies {
+	implementation 'androidx.appcompat:appcompat:1.6.1'
+	implementation 'androidx.preference:preference:1.2.0'
+	implementation 'com.google.android.material:material:1.9.0'
+}

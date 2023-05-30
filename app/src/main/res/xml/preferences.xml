@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+	<PreferenceCategory 
+		android:title="@string/preferences"
+		app:iconSpaceReserved="false">
+		<cu.ordlvctr.materialpreference.MaterialSwitchPreference
+			android:key="@string/material_switch_preference_key"
+			android:icon="@drawable/ic_toggle_on"
+			android:title="@string/material_switch_preference_title"
+			android:summary="@string/material_switch_preference_summary"
+			android:defaultValue="false"/>
+		
+		<cu.ordlvctr.materialpreference.ListPreferenceMaterial
+			android:key="@string/list_preference_material_key"
+			android:icon="@drawable/ic_radio_button"
+			android:title="@string/list_preference_material_title"
+			android:summary="@string/list_preference_material_summary"
+			android:dialogTitle="@string/list_preference_material_dialogTitle"
+			android:entries="@array/list_preference_material_entries"
+			android:entryValues="@array/list_preference_material_entryValues"
+			android:defaultValue="@string/list_preference_material_defaultValue"/>
+		
+		<cu.ordlvctr.materialpreference.MultiSelectListPreferenceMaterial
+			android:key="@string/multi_select_list_preference_material_key"
+			android:icon="@drawable/ic_check_box"
+			android:title="@string/multi_select_list_preference_material_title"
+			android:summary="@string/multi_select_list_preference_material_summary"
+			android:dialogTitle="@string/multi_select_list_preference_material_dialogTitle"
+			android:entries="@array/multi_select_list_preference_material_entries"
+			android:entryValues="@array/multi_select_list_preference_material_entryValues"
+			android:defaultValue="@array/multi_select_list_preference_material_defaultValues"/>
+		
+		<cu.ordlvctr.materialpreference.EditTextPreferenceMaterialDialog
+			android:key="@string/edit_text_preference_material_dialog_key"
+			android:icon="@drawable/ic_text_format"
+			android:title="@string/edit_text_preference_material_dialog_title"
+			android:summary="@string/edit_text_preference_material_summary"
+			android:dialogTitle="@string/edit_text_preference_material_dialogTitle"
+			android:hint="@string/edit_text_preference_material_hint"/>
+		
+		<cu.ordlvctr.materialpreference.EditTextPreferenceMaterial
+			android:key="@string/edit_text_preference_material_key"
+			android:icon="@drawable/ic_text_format"
+			android:title="@string/edit_text_preference_material_title"
+			android:summary="@string/edit_text_preference_material_summary"
+			android:dialogTitle="@string/edit_text_preference_material_dialogTitle"
+			android:hint="@string/edit_text_preference_material_hint"/>
+	</PreferenceCategory>
+</PreferenceScreen>

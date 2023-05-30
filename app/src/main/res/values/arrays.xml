@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<!-- ListPreferenceMaterial -->
+	<string-array name="list_preference_material_entries">
+		<item>Item 1</item>
+		<item>Item 2</item>
+		<item>Item 3</item>
+	</string-array>
+	<string-array name="list_preference_material_entryValues">
+		<item>item1</item>
+		<item>item2</item>
+		<item>item3</item>
+	</string-array>
+	
+	<!-- MultiSelectListPreferenceMaterial -->
+	<string-array name="multi_select_list_preference_material_entries">
+		<item>Item 1</item>
+		<item>Item 2</item>
+		<item>Item 3</item>
+	</string-array>
+	<string-array name="multi_select_list_preference_material_entryValues">
+		<item>item1</item>
+		<item>item2</item>
+		<item>item3</item>
+	</string-array>
+	<string-array name="multi_select_list_preference_material_defaultValues">
+		<item>item1</item>
+		<item>item3</item>
+	</string-array>
+</resources>
