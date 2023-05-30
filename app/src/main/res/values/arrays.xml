@@ -26,6 +26,6 @@
 	</string-array>
 	<string-array name="multi_select_list_preference_material_defaultValues">
 		<item>item1</item>
-		<item>item3</item>
+		<item>item2</item>
 	</string-array>
 </resources>
