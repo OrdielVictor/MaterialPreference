@@ -79,7 +79,7 @@ dependencies {
 
 ### EditTextPreferenceMaterialDialog
 ```xml
-<cu.ordlvctr.materialpreference.SwitchMaterialPreference
+<cu.ordlvctr.materialpreference.EditTextPreferenfeMaterialDialog
     android:key="@string/edit_text_preference_material_dialog_key"
     android:title="@string/edit_text_preference_material_dialog_title"
     android:summary="@string/edit_text_preference_material_dialog_summary"
@@ -89,7 +89,7 @@ dependencies {
 
 ### EditTextPreferenceMaterial
 ```xml
-<cu.ordlvctr.materialpreference.SwitchMaterialPreference
+<cu.ordlvctr.materialpreference.EditTextPreferenceMaterial
     android:key="@string/edit_text_preference_material_key"
     android:title="@string/edit_text_preference_material_title"
     android:summary="@string/edit_text_preference_material_summary"
